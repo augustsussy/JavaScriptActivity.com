@@ -1,0 +1,52 @@
+<html DOCTYPE!>
+<head>
+    <title>Javascript Activity</title>
+    <style>
+        p {
+            font-size: 40px;
+            font-weight: bold;
+            color: #12B0BB;
+            text-align: center;
+            text-shadow: 1px 1px 3px black;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <p>Let's count 1-10 in Thai!</p>
+    <br/>
+
+    <div class="box">Neung (1)</div>
+    <div class="box">Song (2)</div>
+    <div class="box">Sam (3)</div>
+    <div class="box">Si (4)</div>
+    <div class="box">Ha (5)</div>
+    <div class="box">Hok (6)</div>
+    <div class="box">Jet (7)</div>
+    <div class="box">Bpet (8)</div>
+    <div class="box">Gao (9)</div>
+    <div class="box">Sip (10)</div>
+
+    <script>
+        const boxes = document.querySelectorAll('.box');
+        for (let i = 0; i < boxes.length; i++) {
+            boxes[i].style.backgroundColor = "#c4c4c4";
+            boxes[i].style.padding = "20px";
+            boxes[i].style.margin = "10px";
+            boxes[i].style.fontFamily = "Monospace";
+            boxes[i].style.height = "25px";
+            boxes[i].style.width = "300px";
+            boxes[i].style.color = "#000000";
+            boxes[i].style.fontSize = "30px";
+            boxes[i].style.fontWeight = "bold";
+            boxes[i].style.borderRadius = "50px";
+            boxes[i].style.textAlign = "center";
+            boxes[i].style.textShadow = "1px 1px 3px black";
+            boxes[i].style.borderLeft = "10px solid #12B0BB";
+            boxes[i].style.borderRight = "10px solid #12B0BB";
+        }
+    </script>
+
+    <p style="text-align: left;">by: Allen Gerard Dizon</p>
+</body>
+</html>
